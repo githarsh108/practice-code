@@ -50,3 +50,39 @@ console.log(tinderUser);
 //converted output will be in arrays
 console.log(Object.keys(tinderUser));
 
+
+//OBJECT DESTRUCTURING
+console.log("---------------------------");
+
+const course = {
+    coursename : "Js in hindi",
+    price : "999",
+    courseInstructor : "Harsh"
+}
+
+console.log(course.courseInstructor);
+
+const {courseInstructor : teacher } = course //destructuring
+console.log(teacher);
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = 'harsh')
+
+//api's
+
+console.log("-----------------------api--------------------");
+
+// {
+//     "name" : "harsh",
+//     "coursename" : "js in hindi",
+//     "price" : "9999",
+// }
+
+[
+    {},
+    {},
+    {}
+]
