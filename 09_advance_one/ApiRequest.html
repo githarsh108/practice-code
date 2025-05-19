@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati aperiam dolorum perferendis quisquam? Dolore
+    aspernatur quidem asperiores. Incidunt officiis minus recusandae perferendis officia dicta quod reprehenderit
+    explicabo, provident nulla veritatis laborum nam, autem repudiandae?
+</body>
+<script>
+    const url = 'https://api.github.com/users/githarsh108'
+    const xhr = new XMLHttpRequest()
+    xhr.open('GET', url) 
+    xhr.onreadystatechange =  function(){
+    console.log("hee")
+    }
+    xhr.send()
+</script>
+</html>
